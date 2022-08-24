@@ -1,0 +1,189 @@
+#img{
+    width: 100px;
+    height: 100px;
+}
+.checked {
+    color: orange;
+  }
+#hero{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border: 2px solid rgb(150, 131, 131);
+   box-shadow: 5px 5px 5px rgb(189, 154, 154);
+}
+.about{
+    background-color:#00ffd959;
+}
+.p{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.highschool{
+    border: 2px solid whitesmoke;
+    text-align: center;
+    background-color: #fffefe;
+}
+.skills{
+    background: rgba(69, 63, 63, 0.842);
+}
+.skill{
+  color:white;
+}
+.card{
+border: 2px solid red;
+}
+.card:hover{
+    background: rgb(101, 254, 36);
+}
+a{
+    text-decoration:none;
+}
+.contect{
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+.button{
+    box-shadow:5px 5px 5px rgb(54, 54, 54);
+    background: #000;
+    color: white;
+}
+.button:hover{
+    box-shadow:5px 5px 5px rgb(23, 90, 223);
+    background-color: rgb(245, 237, 4);
+    animation: btn1 3s infinite linear;
+}
+@keyframes btn1{
+    from{
+        width: 80px;
+        height:40px;
+    }
+    to {
+        width: 80px;
+        height:40px;
+    }
+}
+.img{
+    height: 100px;
+    width: 100px;
+    
+}
+.imgcenter{
+    align-items: center;
+    text-align: center;
+}
+.hakerrank{
+    width:30vw;
+    height: 30vh;
+}
+#upper{
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   z-index: 50;
+}
+#lower{
+   position: fixed;
+   bottom: 0;
+   right: 50px;
+   z-index: 50;
+}
+.imgskill{
+   
+    display: flex;
+    text-align: center;
+}
+.fourinline{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+.html{
+    margin-left: 10px;
+border:2px solid goldenrod;
+box-shadow: 5px 5px 5px goldenrod;
+text-align: center;
+margin: 40px;
+}
+.html img{
+    width: 100px;
+    height: 100px;
+}
+.html p{
+    margin: auto;
+}
+.html:hover{
+    background-color: rgb(225, 55, 255);
+    margin-top: -5px;
+    height: 160px;
+}
+
+@media  (max-width:800px){
+    .fourinline{
+   display: flex;
+   flex-direction: column;
+    }
+    .imgskill{
+        display: flex;
+        text-align: center;
+        position: relative;
+        justify-content: center;
+    }
+    .html img{
+        width: 120px;
+        height: 120px;
+    }
+
+}
+
+
+
+/* project section start from here */
+.project{
+    background-color: gray;
+}
+.projectfront{
+    margin-left: 10px;
+border:2px solid goldenrod;
+box-shadow: 5px 5px 5px goldenrod;
+text-align: center;
+margin: 40px;
+}
+.projectfront:hover{
+    background-color: aqua;
+   height: 170px;
+    margin-top: -5px;
+}
+.projectfront img{
+    width: 120px;
+    height: 120px;
+}
+
+@media (max-width:800px){
+    .projectfront img{
+        width: 120px;
+        height: 120px;
+    }
+    .projectfront:hover{
+        background-color: aqua;
+        height: 170px;
+         margin-top: -5px;
+    }
+}
+
+.pbtn{
+    border: 1px solid white;
+}
+.pbtn:hover{
+    background-color: yellowgreen;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
