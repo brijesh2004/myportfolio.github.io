@@ -36,3 +36,12 @@ setInterval(() => {
         document.getElementById("name").style.color = "blue";
       }, 4500);
   }, 5000);
+
+
+let hero=document.getElementById("hero");
+function Changehero(){
+  hero.src="hero2.jpg";
+}
+function ChangeAgain(){
+  hero.src="hero.jpg";
+}
