@@ -4,9 +4,6 @@
 }
 .checked {
     color: orange;
-  }
-#hero{
-    width: 200px;
     height: 200px;
     align-items: center;
     border: 2px solid rgb(150, 131, 131);
