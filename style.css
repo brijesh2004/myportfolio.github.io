@@ -4,10 +4,10 @@
 }
 .checked {
     color: orange;
-    height: 200px;
+   /* height: 200px; */
     align-items: center;
-    border: 2px solid rgb(150, 131, 131);
-   box-shadow: 5px 5px 5px rgb(189, 154, 154);
+    /* border: 2px solid rgb(150, 131, 131);
+   box-shadow: 5px 5px 5px rgb(189, 154, 154); */
 }
 #hero{
     width: 200px;
