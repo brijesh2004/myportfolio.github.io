@@ -40,8 +40,8 @@ setInterval(() => {
 
 let hero=document.getElementById("hero");
 function Changehero(){
-  hero.src="hero2.jpg";
+  hero.src="Images/hero2.jpg";
 }
 function ChangeAgain(){
-  hero.src="hero.jpg";
+  hero.src="Images/hero.jpg";
 }
