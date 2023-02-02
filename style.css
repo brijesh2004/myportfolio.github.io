@@ -132,7 +132,7 @@ a{
 }
 .html{
     color: white;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 border:2px solid goldenrod;
 box-shadow: 5px 5px 5px goldenrod;
 text-align: center;
@@ -180,7 +180,7 @@ color: white;
 }
 
 .projectfront{
-    margin-left: 10px;
+    /* margin-left: 10px; */
 border:2px solid goldenrod;
 box-shadow: 5px 5px 5px goldenrod;
 text-align: center;
@@ -230,6 +230,30 @@ button a{
     justify-content: center;
 }
 
+@media (max-width:435px){
+.html{
+    margin: 20px;
+}
+.projectfront{
+    margin: 20px;
+}
+}
+@media (max-width:350px){
+    .html{
+        margin: 15px;
+    }
+    .projectfront{
+        margin: 15px;
+    }
+    }
+    @media (max-width:330px){
+        .html{
+            margin: 10px;
+        }
+        .projectfront{
+            margin: 10px;
+        }
+        }
 
 /* contect section start from header */
 
