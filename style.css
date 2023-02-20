@@ -1,6 +1,7 @@
 
 body{
     background: black;
+    scroll-behavior: smooth;
 }
 #img{
     width: 100px;
