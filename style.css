@@ -150,8 +150,10 @@ color: white;
 }
 .html:hover{
     background-color: rgb(225, 55, 255);
-    margin-top: -5px;
-    height: 160px;
+    /* margin-top: -5px; */
+    scale: 1.2;
+    border-radius: 10px;
+    /* height: 160px; */
 }
 
 @media  (max-width:800px){
@@ -190,8 +192,10 @@ background: rgb(24, 0, 24);
 }
 .projectfront:hover{
     background-color: aqua;
-   height: 170px;
-    margin-top: -5px;
+   /* height: 170px;
+    margin-top: -5px; */
+    scale: 1.2;
+    border-radius: 5px;
 }
 .projectfront img{
     width: 120px;
@@ -262,4 +266,21 @@ button a{
     background-color:black ;
 }
 
+.btn{
+    width: 100px;
+}
 
+.contactme{
+    display: flex;
+    justify-content: space-around;
+
+}
+.created{
+    margin-top: 25px;
+}
+.line{
+ background: linear-gradient(green,yellowgreen);
+ width: 200px;
+ height: 5px;
+ border-radius: 20px;
+}
